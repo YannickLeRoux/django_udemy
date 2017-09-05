@@ -1,0 +1,37 @@
+body {
+	background-color: #001d4c;
+	color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+	border-bottom: 30px solid #10f2d4;
+	border-left: 30px solid #10f2d4;
+	border-right: 30px solid #10f2d4;
+}
+
+.para {
+	padding: 30px;
+}
+
+input {
+	width: 250px;
+	height: 30px;
+}
+
+#button {
+
+	background-color: orange;
+	border: none;
+	border-radius: 20px;
+	color: black;
+	font-size: 20px;
+	padding: 16px 32px;
+	cursor: pointer;
+	padding: 5px;
+	width: 150px;
+	height: 75px;
+	box-shadow: 2px 2px 0 0 grey, 0 0 2px 2px white;
+}
+
+.inputblock {
+	margin: 3px;
+}

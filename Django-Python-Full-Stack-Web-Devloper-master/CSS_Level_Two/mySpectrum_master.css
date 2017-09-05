@@ -1,0 +1,37 @@
+h1 {
+	font-family: 'Sedgwick Ave Display', cursive;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+table {
+	margin: auto;
+}
+
+td {
+	width: 100px;
+	height: 200px;
+	border: 5px solid white;
+	margin: 10px 10px 10px 10px;
+}
+
+#one {
+	background-color: #784A7C;
+}
+
+#two {
+	background-color: #93669E;
+}
+
+#three {
+	background-color: #B287B2;
+}
+
+#four {
+	background-color: #CCABC9;
+}
+
+#five {
+	background-color: #E0C9D9;
+}
