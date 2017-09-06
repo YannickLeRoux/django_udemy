@@ -3,11 +3,31 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>IMAGE PAGE </title>
-  <link rel="stylesheet" href="{% static "css/my_style.css"%}">
+  <title>DJANGO PART TWO </title>
+	<link rel="stylesheet" href="{% static "css/my_style.css"%}">
 </head>
 <body>
-  <h1>Hello this is this a pic of me</h1>
-  <img src="{% static "images/Yanic.jpg" %}" alt="Ooops It didnt show">
+	<h1>Hi! Welcome to django level two!</h1>
+	<h2>Here are your access records</h2>
+	<div class="djangotwo">
+		{% if access_records%}
+		<table>
+			<thead>
+				<th>Site Name</th>
+        <th>Date Accessed</th>
+			</thead>
+			
+		  {% for acc in access_records %}
+			<tr>
+				<td>{{ acc.name }}</td>
+				<td>{{ acc.date }}</td>
+			</tr>
+			{% endfor %}
+		</table>
+		{% else %}
+		  <p> SORRY NO ACCESS RECORDS FUND!</p>
+		{% endif %}
+	
+	</div>
 </body>
 </html>
